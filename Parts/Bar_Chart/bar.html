@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .bar {
+                fill: steelblue;
+            }
+        </style>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <!-- Create a div where the graph will take place -->
+        <div id="my_dataviz"></div>
+        <script src="bar.js"></script>
+
+    </head>
+    
+    <body>
+
+        <h2>Please click on a country (to see its data visualization) -</h2>    
+    
+        <button type="button" onclick=clearAll(),draw_chart("All_Countries")>All_Countries</button>
+        <button type="button" onclick=clearAll(),draw_chart("India")>India</button>
+        <button type="button" onclick=clearAll(),draw_chart("United_States_of_America")>USA</button>
+        <button type="button" onclick=clearAll(),draw_chart("Other")>Other</button>
+        <button type="button" onclick=clearAll(),draw_chart("China")>China</button>
+        <button type="button" onclick=clearAll(),draw_chart("Argentina")>Argentina</button>
+        <button type="button" onclick=clearAll(),draw_chart("Japan")>Japan</button>
+        <button type="button" onclick=clearAll(),draw_chart("Brazil")>Brazil</button>
+        <button type="button" onclick=clearAll(),draw_chart("Germany")>Germany</button>
+        <button type="button" onclick=clearAll(),draw_chart("Indonesia")>Indonesia</button>
+        <button type="button" onclick=clearAll(),draw_chart("Canada")>Canada</button>
+        <button type="button" onclick=clearAll(),draw_chart("Switzerland")>Switzerland</button>
+        <button type="button" onclick=clearAll(),draw_chart("Singapore")>Singapore</button>
+        <button type="button" onclick=clearAll(),draw_chart("Russia")>South_Africa</button>
+        <button type="button" onclick=clearAll(),draw_chart("Egypt")>Egypt</button>
+        <button type="button" onclick=clearAll(),draw_chart("Netherlands")>Netherlands</button>
+        <button type="button" onclick=clearAll(),draw_chart("Pakistan")>Pakistan</button>
+
+        <button type="button" onclick=clearAll(),draw_chart("Nepal")>Nepal</button>
+        <button type="button" onclick=clearAll(),draw_chart("South_Korea")>South_Korea</button>
+        <button type="button" onclick=clearAll(),draw_chart("Poland")>Poland</button>
+        <button type="button" onclick=clearAll(),draw_chart("Belarus")>Belarus</button>
+        <button type="button" onclick=clearAll(),draw_chart("Tunisia")>Tunisia</button>
+        <button type="button" onclick=clearAll(),draw_chart("Ukraine")>Ukraine</button>
+        <button type="button" onclick=clearAll(),draw_chart("Belgium")>Belgium</button>
+        <button type="button" onclick=clearAll(),draw_chart("Saudi_Arabia")>Saudi_Arabia</button>
+        <button type="button" onclick=clearAll(),draw_chart("Taiwan")>Taiwan</button>
+        <button type="button" onclick=clearAll(),draw_chart("Nigeria")>Nigeria</button>
+        <button type="button" onclick=clearAll(),draw_chart("Italy")>Italy</button>
+        <button type="button" onclick=clearAll(),draw_chart("Spain")>Spain</button>
+        <button type="button" onclick=clearAll(),draw_chart("United_Arab_Emirates")>United_Arab_Emirates</button>
+
+        <button type="button" onclick=clearAll(),draw_chart("Mexico")>Mexico</button>
+        <button type="button" onclick=clearAll(),draw_chart("Viet_Nam")>Viet_Nam</button>
+        <button type="button" onclick=clearAll(),draw_chart("Thailand")>Thailand</button>
+        <button type="button" onclick=clearAll(),draw_chart("United_Kingdom_of_Great_Britain")>UK</button>
+        <button type="button" onclick=clearAll(),draw_chart("France")>France</button>
+        <button type="button" onclick=clearAll(),draw_chart("Ghana")>Ghana</button>
+        <button type="button" onclick=clearAll(),draw_chart("Ireland")>Ireland</button>
+        <button type="button" onclick=clearAll(),draw_chart("Philippines")>Philippines</button>
+        <button type="button" onclick=clearAll(),draw_chart("Morocco")>Morocco</button>
+        <button type="button" onclick=clearAll(),draw_chart("Turkey")>Turkey</button>
+        <button type="button" onclick=clearAll(),draw_chart("Iran")>Iran</button>
+        <button type="button" onclick=clearAll(),draw_chart("Peru")>Peru</button>
+
+        <button type="button" onclick=clearAll(),draw_chart("Romania")>Romania</button><button type="button" onclick=clearAll(),draw_chart("Singapore")>Singapore</button>
+        <button type="button" onclick=clearAll(),draw_chart("Republic_of_Korea")>Republic_of_Korea</button>
+        <button type="button" onclick=clearAll(),draw_chart("Australia")>Australia</button>
+        <button type="button" onclick=clearAll(),draw_chart("Chile")>Chile</button>
+        <button type="button" onclick=clearAll(),draw_chart("Kenya")>Kenya</button>
+        <button type="button" onclick=clearAll(),draw_chart("Sweden")>Sweden</button>
+        <button type="button" onclick=clearAll(),draw_chart("Bangladesh")>Bangladesh</button>
+        <button type="button" onclick=clearAll(),draw_chart("Greece")>Greece</button>
+        <button type="button" onclick=clearAll(),draw_chart("Malaysia")>Malaysia</button>
+        <button type="button" onclick=clearAll(),draw_chart("Portugal")>Portugal</button>
+        <button type="button" onclick=clearAll(),draw_chart("Israel")>Israel</button>
+        <button type="button" onclick=clearAll(),draw_chart("Sri_Lanka")>Sri_Lanka</button>
+
+        <button type="button" onclick=clearAll()>Clear All!</button>
+
+    </body>
+</html>
