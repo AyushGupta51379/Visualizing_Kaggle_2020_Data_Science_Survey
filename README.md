@@ -9,6 +9,9 @@ https://www.kaggle.com/c/kaggle-survey-2020/data
 Check out this link, for the live demo:
 https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Parts/Draggable_circles/index.html
 
+Screenshot:
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Parts/Draggable_circles/Screenshot.PNG)
+
 # Bar Chart - Annual compensation across Countries
 Check out this link, for the live demo:
 https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Parts/Bar_Chart/bar.html
