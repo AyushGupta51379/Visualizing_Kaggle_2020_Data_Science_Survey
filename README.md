@@ -16,6 +16,19 @@ The survey was from users of a Data Science Challenges global platform called Ka
 Screenshot:
 ![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Parts/Bar_Circle_WordCloud/Combined.PNG)
 
+#### Explaination
+
+##### Bar chart
+The bar chart denotes annual compensation reported by the users of Kaggle. It represents the number of respondents getting annual compensation in a range, from the current x value to the next x value. Note that a significant number of users were students, and probably reported 0 for the compensation, thus the huge bar for 0. 
+
+It can be filtered according to the country, either through drop down menu or by hovering over a circle in the circle graph. Initially, the bar chart represents all countries together.
+
+##### Draggable circles graph
+The circles graph represents the countries and number of respondents from each country (through the size and color encoding of the circles). You can hover over them which would show the bar chart of the corresponding country. The circles can also be dragged for fun.
+
+##### Word Cloud graph
+The word cloud represents the popularity of the programming languages used by the respondents of survey. With the size and color encoding the popularity.
+
 # Old Updates before 16th Jan 2020:
 
 # Draggable Circles - Countries and respondents
