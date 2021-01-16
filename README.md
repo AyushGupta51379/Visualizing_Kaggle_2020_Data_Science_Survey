@@ -5,6 +5,8 @@ Data Visualization, using HTML, CSS and JavaScript (including libraries) - of Ka
 #### Check out this link for Kaggle 2020 Data Science Survey: 
 #### https://www.kaggle.com/c/kaggle-survey-2020/data
 
+# Update on 16th Jan 2020
+
 # Combined - Bar chart + Draggable circles + Word Cloud
 #### Check out this link, for the live demo:
 #### https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Parts/Bar_Circle_WordCloud/combine_new.html
@@ -12,6 +14,7 @@ Data Visualization, using HTML, CSS and JavaScript (including libraries) - of Ka
 Screenshot:
 ![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Parts/Bar_Circle_WordCloud/Combined.PNG)
 
+# Update before 16th Jan 2020
 
 # Draggable Circles - Countries and respondents
 #### Check out this link, for the live demo:
