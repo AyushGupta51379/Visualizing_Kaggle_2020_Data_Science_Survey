@@ -5,7 +5,7 @@
 - It asked around 40 questions, from over 20 thousand users, covering 171 countries, related to their frequently used programming languages, machine learning frameworks, data visualization tools and more. 
 - It also asked them general questions about their current role, annual compensation, country, gender and more. 
 - You can access the full list of questions asked here: https://www.kaggle.com/c/kaggle-survey-2020/data , after signing into Kaggle. 
-- If you do not wish to sign in, you can access the questions list and methodology documents using this google drive: https://drive.google.com/drive/folders/1ZVLm3A_5LR0aq3Kmv7XHDUboethEfEi7?usp=sharing .
+- If you do not wish to sign in, you can access the questions list and methodology documents from the 'Questionnaire_and_Methods' folder.
 
 # Source of Data
 #### Check out this link for Kaggle 2020 Data Science Survey: 
