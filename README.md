@@ -1,5 +1,5 @@
 # Visualizing_Kaggle_2020_Data_Science_Survey
-Data Visualization, using HTML, CSS and JavaScript (D3.js library and Vue.js framework) - of Kaggle 2020 Data Science Survey. Fully created by Ayush Gupta.
+**Data Visualization**, using HTML, CSS and JavaScript (**D3.js library** and **Vue.js framework**), Python, MS Excel - of Kaggle 2020 Data Science Survey. **Fully created by Ayush Gupta.**
 ## About the data survey
 - The survey was from users of a Data Science Challenges global platform called Kaggle. 
 - It asked around 40 questions, from over 20 thousand users, covering 171 countries, related to their frequently used programming languages, machine learning frameworks, data visualization tools and more. 
