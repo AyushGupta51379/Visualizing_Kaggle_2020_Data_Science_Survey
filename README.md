@@ -7,6 +7,14 @@ The survey was from users of a Data Science Challenges global platform called Ka
 #### Check out this link for Kaggle 2020 Data Science Survey: 
 #### https://www.kaggle.com/c/kaggle-survey-2020/data
 
+# Programming/Frontend tools used
+#### 30% Python for data processing
+#### 10% Github for data hosting
+#### 30% D3 for drawing various components (D3 is a popular JavaScript library)
+#### 15% Vue for various components, including drop down menus and linkage (Vue.js is a JavaScript framework)
+#### 15% JavaScript, HTML, CSS (are main web development tools)
+#### MS Visual Studio for code editing
+
 # Update on 20th Jan 2020
 
 # Combined - Bar chart + Draggable circles + Word Cloud + Heatmap
@@ -19,15 +27,6 @@ The survey was from users of a Data Science Challenges global platform called Ka
 ![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_02.PNG)
 ![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_03.PNG)
 
-# Updates before 17th Jan 2020:
-
-# Combined - Bar chart + Draggable circles + Word Cloud
-#### Check out this link, for the live demo:
-#### https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Parts/Bar_Circle_WordCloud/combine_new.html
-
-Screenshot:
-![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Parts/Bar_Circle_WordCloud/Combined.PNG)
-
 #### Explaination
 
 ##### Bar chart
@@ -39,7 +38,19 @@ It can be filtered according to the country, either through drop down menu or by
 The circles graph represents the countries and number of respondents from each country (through the size and color encoding of the circles). You can hover over them which would show the bar chart of the corresponding country. The circles can also be dragged for fun.
 
 ##### Word Cloud graph
-The word cloud represents the popularity of the programming languages used by the respondents of survey. With the size and color encoding the popularity.
+The word cloud represents the popularity of the tools used by the respondents of survey. You can select different tools such as IDE notebooks, Programming languages, Cloud computing platforms and more, to see their popularity. With the size and color encoding the popularity.
+
+#### Heatmap
+The heatmap represents the job titles, programming experience in years, and the corresponding number of respondents for them. The color encodes the number of respondents, darker color denotes more respondents, whereas lighter color denotes less respondents.
+
+# Updates before 17th Jan 2020:
+
+# Combined - Bar chart + Draggable circles + Word Cloud
+#### Check out this link, for the live demo:
+#### https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Parts/Bar_Circle_WordCloud/combine_new.html
+
+Screenshot:
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Parts/Bar_Circle_WordCloud/Combined.PNG)
 
 # Old Updates before 16th Jan 2020:
 
