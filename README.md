@@ -7,7 +7,18 @@ The survey was from users of a Data Science Challenges global platform called Ka
 #### Check out this link for Kaggle 2020 Data Science Survey: 
 #### https://www.kaggle.com/c/kaggle-survey-2020/data
 
-# Updates on 16th Jan 2020:
+# Update on 20th Jan 2020
+
+# Combined - Bar chart + Draggable circles + Word Cloud + Heatmap
+
+#### Check out this link for the live demo
+#### https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Combined/V1/combine_new.html
+
+Screenshot:
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_1.PNG)
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_2.PNG)
+
+# Updates before 17th Jan 2020:
 
 # Combined - Bar chart + Draggable circles + Word Cloud
 #### Check out this link, for the live demo:
