@@ -48,7 +48,7 @@ The word cloud represents the popularity of the tools used by the respondents of
 #### Heatmap
 The heatmap represents the job titles, programming experience in years, and the corresponding number of respondents for them. The color encodes the number of respondents, darker color denotes more respondents, whereas lighter color denotes less respondents.
 
-# Updates before 17th Jan 2020:
+# Old Updates before 17th Jan 2020:
 
 # Combined - Bar chart + Draggable circles + Word Cloud
 #### Check out this link, for the live demo:
