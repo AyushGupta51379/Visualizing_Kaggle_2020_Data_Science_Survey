@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- Load d3-cloud -->
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+</head>
+
+<body>
+    <style type=text/css>
+        .bar {
+            fill: steelblue;
+        }
+        header {
+            background-color: rgb(28, 120, 196);
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 5px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+        }
+
+        header * {
+            display: inline;
+        }
+
+        header li {
+            margin: 20px;
+        }
+
+        header li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: rgb(235, 240, 237);
+        }
+    </style>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#"> About </a>
+                </li>
+                <li>
+                    <a href="#"> Contact </a>
+                </li>
+                <li> <a href="#"> Terms of use </a>
+                </li>
+                <li>
+                    <a href="#"> Join Us </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h3>Welcome</h2>
+    <h4>Visualizing Kaggle 2020 Data Science Survey Results</h5>
+    <p>About 40 questions related to Data Science, annual compensation, role, experience, most used tools and more.</p>
+    <p>Over 20 thousand Respondents from 171 countries, during 7th to 30th October 2020.</p>
+    <h4>Best view at 80% zoom. Plese hover over a visualization for more details on it.</h4>
+    <h4>Please click on a country (for bar chart) -</h4>
+    <p>You can also move mouse over country circles to directly see their bar chart.</p>
+    <div id="app">
+        <select class="form-control" @change="changeCountryTitle($event)">
+            <option value="CountryTitles[0].name" selected disabled>Choose</option>
+            <option v-for="CountryTitle in CountryTitles" :value="CountryTitle.name" :key="CountryTitle.name">{{
+                CountryTitle.name }}
+            </option>
+        </select>
+        <br><br>
+    </div>
+    <!-- Creating a div where the graph will take place -->
+    <div id="bar_circle_dataviz"></div>
+    <!--Load bar graph-->
+    <script src="combine_bar.js"></script>
+
+    <script>
+        // Using vue for a dynamic drop down menu
+        new Vue({
+            el: "#app",
+            data: {
+                CountryTitles:
+                    [
+                        { name: "All_Countries" },
+                        { name: "Argentina" },
+                        { name: "Australia" },
+                        { name: "Bangladesh" },
+                        { name: "Belarus" },
+                        { name: "Belgium" },
+                        { name: "Brazil" },
+                        { name: "Canada" },
+                        { name: "Chile" },
+                        { name: "China" },
+                        { name: "Colombia" },
+                        { name: "Egypt" },
+                        { name: "France" },
+                        { name: "Germany" },
+                        { name: "Ghana" },
+                        { name: "Greece" },
+                        { name: "India" },
+                        { name: "Indonesia" },
+                        { name: "Iran" },
+                        { name: "Ireland" },
+                        { name: "Israel" },
+                        { name: "Italy" },
+                        { name: "Japan" },
+                        { name: "Kenya" },
+                        { name: "Malaysia" },
+                        { name: "Mexico" },
+                        { name: "Morocco" },
+                        { name: "Nepal" },
+                        { name: "Netherlands" },
+                        { name: "Nigeria" },
+                        { name: "Other" },
+                        { name: "Pakistan" },
+                        { name: "Peru" },
+                        { name: "Philippines" },
+                        { name: "Poland" },
+                        { name: "Portugal" },
+                        { name: "Republic_of_Korea" },
+                        { name: "Romania" },
+                        { name: "Russia" },
+                        { name: "Saudi_Arabia" },
+                        { name: "Singapore" },
+                        { name: "South_Africa" },
+                        { name: "South_Korea" },
+                        { name: "Spain" },
+                        { name: "Sri_Lanka" },
+                        { name: "Sweden" },
+                        { name: "Switzerland" },
+                        { name: "Taiwan" },
+                        { name: "Thailand" },
+                        { name: "Tunisia" },
+                        { name: "Turkey" },
+                        { name: "Ukraine" },
+                        { name: "United_Arab_Emirates" },
+                        { name: "United_Kingdom_of_Great_Britain" },
+                        { name: "United_States_of_America" },
+                        { name: "Viet_Nam" }
+                    ],
+                selectedCountryTitle: "All_Countries"
+            },
+            methods: {
+                changeCountryTitle(event) {
+                    this.selectedCountryTitle = event.target.options[event.target.options.selectedIndex].text;
+                    //clearAll(); 
+                    draw_chart(this.selectedCountryTitle);
+                },
+                load_default() {
+                    //clearAll(); 
+                    draw_chart(this.selectedCountryTitle);
+                }
+            },
+            beforeMount() {
+                this.load_default()
+            }
+
+        })
+    </script>
+    <!--Load circles-->
+    <script src="combine_circle.js"></script>
+
+    <h4>Please click on a type of data (for word cloud)-</h4>
+    <div id="app1">
+        <select class="form-control" @change="changeTitle($event)">
+            <option value="Titles[0].name" selected disabled>Choose</option>
+            <option v-for="Title in Titles" :value="Title.name" :key="Title.name">{{ Title.name }}
+            </option>
+        </select>
+        <br><br>
+    </div>
+
+    <!-- Creating a div where the graph will take place -->
+    <div id="cloud_dataviz"></div>
+    <!--Load word cloud-->
+    <script src="combine-cloud.js"></script>
+    <script>
+        // Using vue for a dynamic drop down menu
+        new Vue({
+            el: "#app1",
+            data: {
+                Titles:
+                    [
+                        { name: "Programming languages" },
+                        { name: "IDEs" },
+                        { name: "Notebooks" },
+                        { name: "Data Visualization Libraries" },
+                        { name: "Machine Learning frameworks" },
+                        { name: "Cloud Computing Platforms" },
+                        { name: "Machine Learning Products" },
+                        { name: "Big data products" },
+                        { name: "Business Intelligence Tools" },
+                        { name: "Data Science Courses platform" }
+                    ],
+                selectedTitle: "Programming languages"
+            },
+            methods: {
+                changeTitle(event) {
+                    this.selectedTitle = event.target.options[event.target.options.selectedIndex].text;
+                    //clearAll(); 
+                    draw_cloud(this.selectedTitle);
+                },
+                load_default() {
+                    //clearAll(); 
+                    draw_cloud(this.selectedTitle);
+                }
+            },
+            beforeMount() {
+                this.load_default()
+            }
+
+        })
+    </script>
+    <script src="cloud_heatmap.js"></script>
+
+</body>
+
+</html>
