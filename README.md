@@ -15,7 +15,7 @@ Data Visualization, using HTML, CSS and JavaScript (D3.js library and Vue.js fra
 #### 35% D3 for drawing various components (D3.js is a popular JavaScript library)
 #### 15% Vue for various components, including drop down menus and linkage (Vue.js is a JavaScript framework)
 #### 20% JavaScript, HTML, CSS (are main web development tools)
-#### 25% Python 3 for data processing
+#### 25% Python 3, MS Excel for data processing
 #### 5% Github for data hosting
 
 #### MS Visual Studio for code editing
