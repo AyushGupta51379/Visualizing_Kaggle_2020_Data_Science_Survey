@@ -25,12 +25,12 @@ Data Visualization, using HTML, CSS and JavaScript (D3.js library and Vue.js fra
 # Combined - Bar chart + Draggable circles + Word Cloud + Heatmap
 
 ## Check out this link for the live demo
-## https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Combined/V1/combine_new.html
+## https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Combined/V2/combine_new.html
 
 #### Screenshots:
-![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_01.PNG)
-![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_02.PNG)
-![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_03.PNG)
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshot_001.PNG)
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshot_002.PNG)
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshot_003.PNG)
 
 #### Explaination
 
