@@ -8,8 +8,8 @@ Data Visualization, using HTML, CSS and JavaScript (D3.js library and Vue.js fra
 - If you do not wish to sign in, you can access the questions list and methodology documents using this google drive: https://drive.google.com/drive/folders/1ZVLm3A_5LR0aq3Kmv7XHDUboethEfEi7?usp=sharing .
 
 # Source of Data
-### Check out this link for Kaggle 2020 Data Science Survey: 
-### https://www.kaggle.com/c/kaggle-survey-2020/data
+#### Check out this link for Kaggle 2020 Data Science Survey: 
+#### https://www.kaggle.com/c/kaggle-survey-2020/data
 
 # Programming/Frontend tools used
 #### 35% D3 for drawing various components (D3.js is a popular JavaScript library)
@@ -24,8 +24,8 @@ Data Visualization, using HTML, CSS and JavaScript (D3.js library and Vue.js fra
 
 # Combined - Bar chart + Draggable circles + Word Cloud + Heatmap
 
-#### Check out this link for the live demo
-#### https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Combined/V1/combine_new.html
+## Check out this link for the live demo
+## https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Combined/V1/combine_new.html
 
 #### Screenshots:
 ![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_01.PNG)
