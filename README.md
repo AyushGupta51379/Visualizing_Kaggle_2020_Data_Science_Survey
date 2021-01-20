@@ -12,11 +12,12 @@ Data Visualization, using HTML, CSS and JavaScript (D3.js library and Vue.js fra
 #### https://www.kaggle.com/c/kaggle-survey-2020/data
 
 # Programming/Frontend tools used
-#### 25% Python for data processing
-#### 5% Github for data hosting
 #### 35% D3 for drawing various components (D3.js is a popular JavaScript library)
 #### 15% Vue for various components, including drop down menus and linkage (Vue.js is a JavaScript framework)
 #### 20% JavaScript, HTML, CSS (are main web development tools)
+#### 25% Python 3 for data processing
+#### 5% Github for data hosting
+
 #### MS Visual Studio for code editing
 
 # Update on 20th Jan 2020
