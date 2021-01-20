@@ -14,7 +14,7 @@ The survey was from users of a Data Science Challenges global platform called Ka
 #### Check out this link for the live demo
 #### https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Combined/V1/combine_new.html
 
-Screenshot:
+#### Screenshots:
 ![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_01.PNG)
 ![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_02.PNG)
 ![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V1/Screenshot_03.PNG)
