@@ -1,7 +1,7 @@
 # Visualizing_Kaggle_2020_Data_Science_Survey
 Data Visualization, using HTML, CSS and JavaScript (including libraries) - of Kaggle 2020 Data Science Survey. 
 ## About the data survey
-The survey was from users of a Data Science Challenges global platform called Kaggle. It asked several questions from the users related to their frequently used programming languages, machine learning frameworks, data visualization tools. It also asked them general questions about their current role, annual compensation, country, gender and more. You can access the full list of questions asked here: https://www.kaggle.com/c/kaggle-survey-2020/data , after signing into Kaggle. If you do not wish to sign in, you can access the data in this google drive: https://drive.google.com/drive/folders/1ZVLm3A_5LR0aq3Kmv7XHDUboethEfEi7?usp=sharing .
+The survey was from users of a Data Science Challenges global platform called Kaggle. It asked around 40 questions, from over 20 thousand users, covering 171 countries, related to their frequently used programming languages, machine learning frameworks, data visualization tools and more. It also asked them general questions about their current role, annual compensation, country, gender and more. You can access the full list of questions asked here: https://www.kaggle.com/c/kaggle-survey-2020/data , after signing into Kaggle. If you do not wish to sign in, you can access the questions data and methodology in this google drive: https://drive.google.com/drive/folders/1ZVLm3A_5LR0aq3Kmv7XHDUboethEfEi7?usp=sharing .
 
 # Source of Data
 #### Check out this link for Kaggle 2020 Data Science Survey: 
