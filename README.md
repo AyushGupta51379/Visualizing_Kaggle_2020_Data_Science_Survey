@@ -28,9 +28,9 @@ Data Visualization, using HTML, CSS and JavaScript (D3.js library and Vue.js fra
 ## https://ayushgupta51379.github.io/Visualizing_Kaggle_2020_Data_Science_Survey/Combined/V2/combine_new.html
 
 #### Screenshots:
-![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshot_001.PNG)
-![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshot_002.PNG)
-![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshot_003.PNG)
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshots/Screenshot_001.PNG)
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshots/Screenshot_002.PNG)
+![Image](https://github.com/AyushGupta51379/Visualizing_Kaggle_2020_Data_Science_Survey/blob/main/Combined/V2/Screenshots/Screenshot_003.PNG)
 
 #### Explaination
 
